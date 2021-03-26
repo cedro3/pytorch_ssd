@@ -23,9 +23,9 @@ if sys.version_info[0] == 2:
 else:
     import xml.etree.ElementTree as ET
 
-VOC_CLASSES = ('rbc', 'wbc', 'platelets')
+BCCD_CLASSES = ('rbc', 'wbc', 'platelets')
 
-CLASSES = ('aeroplane', 'bicycle', 'bird', 'boat',
+VOC_CLASSES = ('aeroplane', 'bicycle', 'bird', 'boat',
            'bottle', 'bus', 'car', 'cat', 'chair',
            'cow', 'diningtable', 'dog', 'horse',
            'motorbike', 'person', 'pottedplant',
